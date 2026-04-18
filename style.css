@@ -11,12 +11,16 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(125deg,#ffffff,#000000);
+    background-image: url(img/pexels-adrien-olichon-1257089-2387532.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .box {
     height: 500px;
     width: 400px;
     background-color: rgb(196, 196, 196);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,4 +97,18 @@ body {
         }
     }
 
+}
+
+.img-box {
+    background-image: url(img/a66b86c63d181c221f12f428afbbde2e.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: 500px;
+    position: fixed;
+    display: none;
+}
+.img-move {
+    display: block;
 }

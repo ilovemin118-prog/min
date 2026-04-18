@@ -36,3 +36,9 @@ function shownum(num) {
         Shownum.innerText = val2;
     }
 }
+
+const imgbox = document.getElementById('img-box');
+const add = document.getElementById('add');
+add.addEventListener('click',function() {
+    imgbox.classList.add('img-move')
+})
