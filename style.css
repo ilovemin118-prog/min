@@ -98,17 +98,3 @@ body {
     }
 
 }
-
-.img-box {
-    background-image: url(img/a66b86c63d181c221f12f428afbbde2e.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 70%;
-    height: 500px;
-    position: fixed;
-    display: none;
-}
-.img-move {
-    display: block;
-}
